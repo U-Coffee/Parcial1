@@ -1,17 +1,33 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+  <ion-toolbar color="primary">
+    <ion-icon name="logo-ionic" slot="start"></ion-icon>
+    <ion-title>Objetos Ionic</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<ion-content [fullscreen]="true" color="tertiary">
+  <br>
+  <div>
+    <p>
+      - Input:
+      <ion-item>
+        <ion-input placeholder="Campo de texto"></ion-input>
+      </ion-item>
+    </p>
+    <p>
+      - Botón:
+      <ion-button expand="full" routerLink="/new" color="success">Nueva página</ion-button>
+    </p>
+    <p>
+      - Iconos:
+      <ion-icon name="logo-playstation"></ion-icon>&nbsp;
+      <ion-icon name="logo-ionic"></ion-icon>&nbsp;
+      <ion-icon name="square"></ion-icon>&nbsp;
+      <ion-icon name="person-circle"></ion-icon>&nbsp;
+    </p>
+    <p id="id">
+      Realizadores: <br> -Daniel Fernando Torres Cubillos <br> & <br> Diana Mayerly Garcia Macias <br>
+    </p>
+    <p id="copy">Copyright &copy; 2020 </p>
+  </div>
 </ion-content>

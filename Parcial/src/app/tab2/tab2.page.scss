@@ -1,3 +1,24 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+ion-title{
+  text-align: center;
+  font-family: monospace;
+}
+div{
+  width: 80%;
+  margin: auto;
+  font-family: monospace;
+  font-size: x-large;
+}
+
+#id{
+  font-family: cursive;
+  font-size: x-large;
+  text-align: center;
+}
+
+#copy{
+  text-align: center;
+}

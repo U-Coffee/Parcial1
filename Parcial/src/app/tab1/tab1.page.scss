@@ -1,0 +1,20 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+ion-title{
+  text-align: center;
+  font-family: monospace;
+}
+
+ion-button{
+  text-align: center;
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+
+div{
+  width: 80%;
+  margin: auto;
+}
